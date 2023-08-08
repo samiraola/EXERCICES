@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+   box-shadow: 1px 1px 5px  black;
+   background-color: rgba(149, 69, 160, 0.89);
+   position: fixed;
+}
+.container .game{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   margin-top: 50px;
+   padding: 30px;
+   color: white;
+}
+.print{
+    width: 350px;
+    height: 480px;
+    background-color: rgb(165, 42, 144);
+    margin: 0 auto;
+}
+.over{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(250, 24, 239, 0.438);
+   margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+.texte{
+   padding: 40px;
+}
+
+.texte span{
+  color: white;
+}
+.texte .car{
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.432);
+   border: 1px solid rgba(0, 0, 255, 0.432);
+    cursor: pointer;
+    color: white;
+}
+.texte h5{
+    margin: 10px;
+    color: white;
+}
+
+
+.texte input{
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+   border-radius: 5px;
+  border: 1px solid white;
+  background: whitesmoke;
+  
+    
+}
+.texte ::placeholder{
+    padding: 50px;
+    color: black;
+}
+
+.texte .sert{
+ 
+   position: relative;
+}
+.texte .sert img{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    
+}
+
+.texte .sort{
+ 
+    position: relative;
+ }
+ .texte .sort img{
+     position: absolute;
+     left: 15px;
+     bottom: 15px;
+     
+ }
+
+.texte .cir{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color:  rgba(0, 0, 255, 0.432);
+    border: 1px solid rgba(0, 0, 255, 0.432);
+   color: white;
+   cursor: pointer;
+}
+
+.texte .open{
+   line-height: 50px;
+   
+}
+.texte p{
+    color: white;
+}
